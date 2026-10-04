@@ -1,6 +1,6 @@
 package isp;
 
-public class PDFPrinter implements Imprimante{
+public class PDFPrinter implements Imprimante, Annulable{
 
     @Override
     public void imprimer() {
@@ -12,7 +12,4 @@ public class PDFPrinter implements Imprimante{
         System.out.print("Impression annulée par PDFPrinter");
     }
 
-    @Override
-    public void scanner() {
-    }
 }

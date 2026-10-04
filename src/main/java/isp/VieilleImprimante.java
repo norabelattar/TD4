@@ -7,11 +7,4 @@ public class VieilleImprimante implements Imprimante{
         System.out.print("Impression par PDFPrinter");
     }
 
-    @Override
-    public void annulerOperation() {
-    }
-
-    @Override
-    public void scanner() {
-    }
 }
